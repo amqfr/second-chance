@@ -17,7 +17,7 @@ export class UsersController {
   }
 
   @Get(':userId/avatar')
-  async getUserAvatar(@Param('userId') userId: number): Promise<string> {
+  async getUserAvatar(@Param('userId') userId: string): Promise<string> {
     return this.usersService.getUserAvatar(userId);
   }
 

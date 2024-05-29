@@ -66,7 +66,7 @@ describe('UsersController', () => {
       const avatarBase64 = 'base64avatar';
       jest.spyOn(service, 'getUserAvatar').mockResolvedValue(avatarBase64);
 
-      const result = await controller.getUserAvatar(mockUser.id);
+      const result = await controller.getUserAvatar(mockUser.id.toString());
 
       expect(result).toBe(avatarBase64);
       expect(service.getUserAvatar).toHaveBeenCalledWith(mockUser.id);
