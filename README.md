@@ -27,8 +27,8 @@ This project is a simple REST API application built using the NestJS framework. 
 ## Running the Application
 
 1. Start the NestJS application:
-  ```bash
-  npm run start
+   ```bash
+   npm run start
 
 2. The application will be running on http://localhost:3000.
 
@@ -38,14 +38,14 @@ This project is a simple REST API application built using the NestJS framework. 
 - npm (v6.x or higher)
 - MongoDB (v4.4 or higher)
 - RabbitMQ (v3.7 or higher)
-  ```bash
-  {
-  "id": 1,
-  "email": "test@example.com",
-  "first_name": "Test",
-  "last_name": "User",
-  "avatar": "https://reqres.in/img/faces/1-image.jpg"
-  }
+   ```bash
+   {
+     "id": 1,
+     "email": "test@example.com",
+     "first_name": "Test",
+     "last_name": "User",
+     "avatar": "https://reqres.in/img/faces/1-image.jpg"
+   }
 
 ### GET /api/users/{userId}
 - Description: Retrieve user data from the external API.
