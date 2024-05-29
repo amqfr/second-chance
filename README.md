@@ -77,7 +77,7 @@ This project is a simple REST API application built using the NestJS framework. 
 Use Postman or a similar tool to send requests to the API endpoints as described above.
 
 ## Project Structure
-   
+```tree
 second-chance/
 ├── src/
 │   ├── app.controller.spec.ts
@@ -109,4 +109,4 @@ second-chance/
 ├── package.json
 ├── README.md
 ├── tsconfig.build.json
-├── tsconfig.json
+└── tsconfig.json
