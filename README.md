@@ -23,6 +23,14 @@ This project is a simple REST API application built using the NestJS framework. 
    npm install
 
 3. Start MongoDB and RabbitMQ services if not already running.
+- 1. for install mongodb can use docker :
+      ```bash 
+      docker pull mongo
+      docker run -d --name your_mongodb_instance -p 27017:27017 mongo
+- 2. for install RabbitMQ can use docker:
+      ```bash
+      sudo docker pull rabbitmq:management
+      sudo docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:management
 
 ## Running the Application
 
@@ -69,6 +77,7 @@ This project is a simple REST API application built using the NestJS framework. 
 Use Postman or a similar tool to send requests to the API endpoints as described above.
 
 ## Project Structure
+   
 second-chance/
 ├── src/
 │   ├── app.controller.spec.ts
